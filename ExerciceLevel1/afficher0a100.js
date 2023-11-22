@@ -1,3 +1,4 @@
+//exercice 2
 /**
  * affiche les nombres de 0 à 100
  *

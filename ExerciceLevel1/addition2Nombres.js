@@ -1,3 +1,4 @@
+//Exercice 3
 /**
 * addition de 2 nombres
 * @param {number} nombre1 1er nombre à additionner

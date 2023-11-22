@@ -1,3 +1,4 @@
+//Exercice 7
 /**
  * additionne la somme d'un tableau de nombres
  * @param {number[]} nombres 

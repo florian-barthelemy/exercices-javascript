@@ -1,3 +1,4 @@
+//exercice 1 
 /**
  * souhaite la bienvenue au nom rentré
  * @param {*} nom nom dont on doit souhaiter la bienvenue

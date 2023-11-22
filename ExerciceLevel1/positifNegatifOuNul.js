@@ -4,11 +4,11 @@
  * @param {*} nombre nombre à vérifier
  */
 function positifNegatifOuNul(nombre){
-        if (nombre<0)
+        if (nombre < 0)
         {
             console.log("Nombre négatif");
         }
-        else if (nombre>0)
+        else if (nombre > 0)
         {
             console.log("Nombre positif");
         }
