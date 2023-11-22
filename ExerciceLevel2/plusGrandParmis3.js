@@ -3,9 +3,9 @@
 //Exercice 1
 
 /**
- * compare les valeurs du tableau et affiche la plus grande valeur du tableau
- * @param {number[]} nombres liste de valeurs a comparer 
- */
+* compare les valeurs du tableau et affiche la plus grande valeur du tableau
+* @param {number[]} nombres liste de valeurs a comparer 
+*/
 function plusGrandParmis3(nombres){
     let plusGrand = nombres[0]; // stocke la valeur 
     let iteration = 1;
