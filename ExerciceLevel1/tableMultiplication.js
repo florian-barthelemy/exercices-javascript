@@ -3,9 +3,9 @@
  * @param {number} nombre nombre de la table de multiplication à remplir 
  */
 function tableMultiplication(nombre){
-    for (iteration=1;iteration<=10;iteration++)
+    for (iteration = 1; iteration <= 10; iteration++)
     {
-        console.log(nombre + " X "+iteration+" = "+(nombre*iteration));
+        console.log(nombre + " X " + iteration+" = " + (nombre*iteration));
     }
 }
 

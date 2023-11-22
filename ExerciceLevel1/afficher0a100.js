@@ -3,7 +3,7 @@
  *
  */
 function afficher0A100(){
-    for (nombre=0;nombre<=100;nombre++){
+    for (nombre = 0; nombre <= 100; nombre++){
         console.log(nombre);
     }
 }
