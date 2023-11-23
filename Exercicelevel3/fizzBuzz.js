@@ -28,12 +28,12 @@ function fizzBuzz(){
         // pour chaque nombre je crée un message vide
         let message = "";
         // si c'est un multiple de 3 j'ajoute au message le mot FIZZ
-        if (iteration%3 === 0){
+        if (iteration % 3 === 0){
             message += "FIZZ";
         } 
 
         // si c'est un multiple de 5 j'ajoute au message le mot BUZZ
-        if (iteration%5 === 0){
+        if (iteration % 5 === 0){
             message += "BUZZ";
         }
 

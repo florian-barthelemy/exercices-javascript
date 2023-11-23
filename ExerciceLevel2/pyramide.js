@@ -14,7 +14,6 @@ function pyramide(nombre){
         avec une seule étoile donc avec un n de "0" */
         console.log(" ".repeat(nombre - iteration) + chaineEtoile.repeat(2*(iteration -1) + 1));
     }
-    
 }
 
 pyramide(5);
