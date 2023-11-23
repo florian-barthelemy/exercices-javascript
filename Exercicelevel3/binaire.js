@@ -35,7 +35,7 @@ function base10ToBinaire(){
 
 /**
 * demande à un utilisateur de rentrer un nombre à transformer en binaire
-* @returns {number[]} nombre à tranformer et la base pour transformer
+* @returns {number} nombre à tranformer en binaire
 */
 function readlineSyncNombreTransformeBinaire(){ 
     let nombre = 0;
@@ -50,7 +50,7 @@ function readlineSyncNombreTransformeBinaire(){
 
 /**
 * demande à un utilisateur de rentrer un nombre à transformer et la base voulue pour le transformer
-* @returns {number} nombre souhaité
+* @returns {number[]} nombre à tranformer et la base pour transformer
 */
 function readlineSyncNombreTransformeBase(){ 
     let nombre = 0;
