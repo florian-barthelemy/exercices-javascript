@@ -49,6 +49,15 @@ function justePrix(){
     while (tentative < tentativeValeurMax[0]  && prixJoueur != prixADeviner){
         prixJoueur = readlineSyncJoueur(tentativeValeurMax[1]);
         tentative ++;
+        if (prixJoueur !== prixADeviner){
+            if (prixJoueur < prixADeviner){
+                console.log("C'est plus");
+            }
+            else
+            {
+                console.log("C'est moins");
+            }
+        }
     }
     // vérifie si il a trouver le prix si c'est le cas affiche un message de victoire sinon défaite
     if (prixJoueur === prixADeviner){
